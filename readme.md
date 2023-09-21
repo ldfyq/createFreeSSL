@@ -1,7 +1,7 @@
-Éú³ÉÖ¤Êé
+ç”Ÿæˆè¯ä¹¦
 
-1 °²×°¹¤¾ß
-curl https://get.acme.sh | sh -s email=wuxiu930305@gmail.com
+1 å®‰è£…å·¥å…·
+curl https://get.acme.sh | sh -s email=email address
 
 [Thu Sep 21 11:20:11 CST 2023] Installing from online archive.
 [Thu Sep 21 11:20:11 CST 2023] Downloading https://github.com/acmesh-official/acme.sh/archive/master.tar.gz
@@ -19,8 +19,6 @@ source "/root/.acme.sh/acme.sh.csh"
 source "/root/.acme.sh/acme.sh.csh"
 [Thu Sep 21 11:20:15 CST 2023] Installing cron job
 26 0 * * * "/root/.acme.sh"/acme.sh --cron --home "/root/.acme.sh" > /dev/null
-¶¨Ê±ÈÎÎñ
-26 0 * * * "/root/.acme.sh"/acme.sh --cron --home "/root/.acme.sh" > /dev/null
 
 . "/root/.acme.sh/acme.sh.env"
 [Thu Sep 21 11:20:15 CST 2023] Good, bash is found, so change the shebang to use bash as preferred.
@@ -30,5 +28,20 @@ source "/root/.acme.sh/acme.sh.csh"
 
 acme.sh --issue -d bw.jinbei.live --webroot /data/webdev/ssl
 
--d ÓòÃû
--webroot ÓòÃûÍøÕ¾¸ùÄ¿Â¼
+-d åŸŸå
+-webroot åŸŸåç½‘ç«™æ ¹ç›®å½•
+
+
+å¤‡æ³¨
+
+[Thu Sep 21 11:20:14 CST 2023] Installing alias to '/root/.cshrc'
+source "/root/.acme.sh/acme.sh.csh"
+[Thu Sep 21 11:20:14 CST 2023] Installing alias to '/root/.tcshrc'
+source "/root/.acme.sh/acme.sh.csh"
+[Thu Sep 21 11:20:15 CST 2023] Installing cron job
+å®šæ—¶ä»»åŠ¡
+26 0 * * * "/root/.acme.sh"/acme.sh --cron --home "/root/.acme.sh" > /dev/null
+
+
+
+acme.sh --issue -d bw.jinbei.live --webroot /data/webdev/ssl
